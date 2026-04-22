@@ -1,0 +1,39 @@
+{
+  "company": {
+    "name": "AutoStream",
+    "description": "AI-powered automated video editing SaaS for content creators",
+    "website": "https://autostream.io"
+  },
+  "plans": [
+    {
+      "name": "Basic",
+      "price_monthly": 29,
+      "videos_per_month": 10,
+      "resolution": "720p",
+      "ai_captions": false,
+      "support": "Email support (business hours)",
+      "best_for": "Hobbyists and new creators"
+    },
+    {
+      "name": "Pro",
+      "price_monthly": 79,
+      "videos_per_month": "Unlimited",
+      "resolution": "4K",
+      "ai_captions": true,
+      "support": "24/7 live chat and priority email",
+      "best_for": "Full-time content creators"
+    }
+  ],
+  "policies": {
+    "refund": "No refunds after the 7-day trial period",
+    "free_trial": "7-day free Pro trial for all new users",
+    "support_basic": "Email support Mon-Fri 9am-6pm EST",
+    "support_pro": "24/7 live chat and priority support",
+    "cancellation": "Cancellations take effect at end of billing cycle"
+  },
+  "platforms_supported": ["YouTube", "Instagram", "TikTok", "Facebook", "Twitter/X", "LinkedIn"],
+  "features": {
+    "all_plans": ["Smart cut detection", "Auto color correction", "Background noise removal", "Intro/outro templates"],
+    "pro_only": ["AI captions", "Auto-highlight reel", "Smart thumbnail suggestions", "Voice-to-text transcription"]
+  }
+}
